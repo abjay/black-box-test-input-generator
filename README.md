@@ -1,4 +1,4 @@
-#black-box-test-input-generator
+# black-box-test-input-generator
 <b>This project has been coded in C++</b>
 <h2>Setup</h2>
 <ul>
