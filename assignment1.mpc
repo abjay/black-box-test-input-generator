@@ -1,0 +1,23 @@
+
+project (assignment1) {
+  specific (make) {
+    requires += cpp11
+    compile_flags += -std=c++11
+  }
+  exename = assignment1
+  install = .
+ 
+  Source_Files {
+	Source.cpp
+	Boundary_Value_Analysis.cpp
+	Worst_Case_Robustness.cpp
+	Weak_Normal_Equivalence_Class.cpp
+	Weak_Robust_Equivalence_Class.cpp
+	Testing_Technique.cpp
+	Equivalence_Class_Generic.cpp
+	Boundary_Value_Generic.cpp
+  }
+
+  Template_Files {
+  }
+}
